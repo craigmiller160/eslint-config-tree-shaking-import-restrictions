@@ -1,6 +1,15 @@
 {
   "name": "@craigmiller160/eslint-config-tree-shaking-import-restrictions",
   "version": "1.0.0-beta",
-  "main": "index.js",
-  "license": "MIT"
+  "main": ".eslintrc.js",
+  "author": "craigmiller160",
+  "publishConfig": {
+    "registry": "https://craigmiller160.ddns.net:30003/repository/npm-private/"
+  },
+  "scripts": {
+    "build": "echo 'No build required'"
+  },
+  "files": [
+    ".eslintrc.js"
+  ]
 }
