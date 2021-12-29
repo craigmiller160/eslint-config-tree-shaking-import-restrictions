@@ -11,5 +11,8 @@
   },
   "files": [
     ".eslintrc.js"
-  ]
+  ],
+  "peerDependencies": {
+    "eslint": "^8.5.0"
+  }
 }
