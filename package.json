@@ -1,0 +1,6 @@
+{
+  "name": "@craigmiller160/eslint-config-tree-shaking-import-restrictions",
+  "version": "1.0.0-beta",
+  "main": "index.js",
+  "license": "MIT"
+}
