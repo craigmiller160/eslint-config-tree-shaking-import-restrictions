@@ -26,7 +26,14 @@ const restrictedImports = {
         }
     ],
     patterns: [
-        'fp-ts/lib/*'
+        {
+            group: [
+                'fp-ts/lib/*',
+                'fp-ts/*',
+                '!fp-ts/es6'
+            ],
+            message: 'Please use "fp-ts/es6/*" style imports.'
+        }
     ]
 };
 
