@@ -33,6 +33,13 @@ const restrictedImports = {
                 '!fp-ts/es6'
             ],
             message: 'Please use "fp-ts/es6/*" style imports.'
+        },
+        {
+            group: [
+                '@craigmiller160/ts-function/*',
+                '!@craigmiller160/ts-function/es'
+            ],
+            message: 'Please use "@craigmiller160/ts-function/es/*" style imports'
         }
     ]
 };
