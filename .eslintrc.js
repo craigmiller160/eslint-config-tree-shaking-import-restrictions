@@ -36,8 +36,8 @@ const restrictedImports = {
         },
         {
             group: [
-                '@craigmiller160/ts-function/*',
-                '!@craigmiller160/ts-function/es'
+                '@craigmiller160/ts-functions/*',
+                '!@craigmiller160/ts-functions/es'
             ],
             message: 'Please use "@craigmiller160/ts-function/es/*" style imports'
         }
