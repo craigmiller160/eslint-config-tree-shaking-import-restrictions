@@ -1,6 +1,6 @@
 {
   "name": "@craigmiller160/eslint-config-tree-shaking-import-restrictions",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "main": ".eslintrc.js",
   "author": "craigmiller160",
   "publishConfig": {
